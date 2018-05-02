@@ -1,3 +1,5 @@
-My First Website
+Farm Animal Site
 
-I am building this site as I learn html and css.# My-first-website
+This is a basic site I am building as I learn HTML, CSS and JavaScript.
+
+The farm site is inpsired by my nephews love of animals.
