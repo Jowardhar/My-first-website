@@ -42,10 +42,10 @@ h1 {
 .animalNav a {
     text-decoration: none;
 }
-.animalNav a li {
+.animalNav  li {
     color: black;
 }
-.animalNav a li:hover {
+.animalNav li:hover {
     background-color: lightblue;
 }
 
