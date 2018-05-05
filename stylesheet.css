@@ -1,28 +1,22 @@
+
+/* Universal CCS styles */
 body {
     background: lightgreen;
-    font-family: fantasy
+    font-family: fantasy;
+    text-align: center;
     
 }
-
 h1 {
     text-align: center;
     border: ridge 5px lightblue;
 }
 
-
-.textCentre {
-    text-align: center;
-}
-
+/* Nav Bar styles*/
 .topNav {
     overflow: hidden;
-    background-color: lightblue;
-    position:relative;
-    left: 200px;
-    width: 31%;
-    
+    background-color: peru;
+    border: solid;
 }
-
 .topNav a {
     float: left;
     display: block;
@@ -31,13 +25,41 @@ h1 {
     padding: 5px;
     text-decoration: none
 }
-
 .topNav a:hover {
-    background-color: blue;
+    background-color: lightgreen;
     color: white;
 }
 
+/* Animal Nav Bar styles */
+.animalNav {
+    overflow: hidden;
+    width: 20%;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.animalNav a {
+    text-decoration: none;
+}
+.animalNav a li {
+    color: black;
+}
+.animalNav a li:hover {
+    background-color: lightblue;
+}
+
+/* Animal Info group styles */
 .animalInfo {
     text-align: justify;
+    
+}
+.animalInfo h4 {
+    text-decoration: underline;
+}
+.animalInfo img {
+    border: ridge 4px brown;
+}
+.animalInfo p {
     
 }
