@@ -1,0 +1,43 @@
+body {
+    background: lightgreen;
+    font-family: fantasy
+    
+}
+
+h1 {
+    text-align: center;
+    border: ridge 5px lightblue;
+}
+
+
+.textCentre {
+    text-align: center;
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: lightblue;
+    position:relative;
+    left: 200px;
+    width: 31%;
+    
+}
+
+.topNav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none
+}
+
+.topNav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.animalInfo {
+    text-align: justify;
+    
+}
