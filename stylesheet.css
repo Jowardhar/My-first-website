@@ -1,20 +1,20 @@
 
 /* Universal CCS styles */
 body {
-    background: lightgreen;
+    background: #4FAF8D;
     font-family: fantasy;
     text-align: center;
     
 }
 h1 {
     text-align: center;
-    border: ridge 5px lightblue;
+    border: ridge 5px #4FAF8D;
 }
 
 /* Nav Bar styles*/
 .topNav {
     overflow: hidden;
-    background-color: peru;
+    background-color: #f0c988;
     border: solid;
 }
 .topNav a {
@@ -26,7 +26,7 @@ h1 {
     text-decoration: none
 }
 .topNav a:hover {
-    background-color: lightgreen;
+    background-color: #ea6e4d;
     color: white;
 }
 
@@ -46,7 +46,8 @@ h1 {
     color: black;
 }
 .animalNav li:hover {
-    background-color: lightblue;
+    background-color: #ea6e4d;
+    cursor: pointer;
 }
 
 /* Animal Info group styles */
@@ -58,8 +59,5 @@ h1 {
     text-decoration: underline;
 }
 .animalInfo img {
-    border: ridge 4px brown;
-}
-.animalInfo p {
-    
+    border: ridge 4px #ea6e4d;
 }
